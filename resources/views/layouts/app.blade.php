@@ -20,7 +20,7 @@
     {{-- Pull in Compiled CSS file  --}}
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body class="bg-light">
+<body class="bg-primary">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -57,5 +57,8 @@
           </div>
         </div>
       </nav>
+      <div class="m-5">
+          @yield('content')
+      </div>
 </body>
 </html>

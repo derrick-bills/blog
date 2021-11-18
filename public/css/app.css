@@ -10019,3 +10019,14 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.custom {
+  height: 90vh;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+ul li {
+  cursor: pointer;
+}

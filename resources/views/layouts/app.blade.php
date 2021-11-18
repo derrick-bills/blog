@@ -21,18 +21,41 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body class="bg-light">
-    <nav class="bg-primary d-flex justify-content-between align-items-center">
-        <ul class="d-flex p-2">
-            <li  href = "" class = "p-3">Home</li>
-            <li  href = "" class = "p-3">Dashboard</li>
-            <li  href = "" class = "p-3">Post</li>
-        </ul>
-        <ul class="d-flex p-2">
-            <li  href = "" class = "p-3">Derrick Bills</li>
-            <li  href = "" class = "p-3">Login</li>
-            <li  href = "" class = "p-3">Register</li>
-            <li  href = "" class = "p-3">Logout</li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ">Derrick </a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Derrick Bills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Logout</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
 </body>
 </html>
